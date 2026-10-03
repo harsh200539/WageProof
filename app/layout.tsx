@@ -1,0 +1,1 @@
+import type {Metadata} from 'next';import './globals.css';export const metadata:Metadata={title:"WageProof",description:"Build a dated record of shifts, payments and unresolved discrepancies.",icons:{icon:'/favicon.svg'}};export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
